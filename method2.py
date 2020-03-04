@@ -104,10 +104,11 @@ K4_bad = f.create_dataset('K4_bad', (1, 2), maxshape=(n_evs, 2), dtype='f4')
 # beta(x, y)  | Input: two squared masses | Output: a 3-component vector
 # alphabeta(x, y)  | Input: two squared masses | Output: a scalar
 # DIS(x, y)  | Input: two squared masses | Output: a scalar
+# DIS_var(x)  | Input: array of two squared masses | Output: a scalar
+# DIS_jac(x, y)  | Input: array of two squared masses | Output: jacobian
 # Pnu(x, y, sign)  | Input: two squared masses and a discriminant sign | Output: a 4-vector
-
-
-
+# K4(x, y, sign, signb)  | Input: two squared masses, sign and sign of b's | Output: a scalar
+# F4(x)  | Input: array of two squared masses | Output: a scalar
 
 
 
